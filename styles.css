@@ -1,0 +1,210 @@
+body {
+    margin: 0;
+    font-family:Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+}
+
+h1 {
+    font-size: 5.625rem;
+    margin-top: 50px;
+    color: #273636;
+}
+
+h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #273636;
+    font-weight: normal;
+}
+
+h3 {
+    color: #11999E;
+}
+
+.top-container {
+    background-color: #5bd3d3;
+    text-align: center;
+    padding: 100px 0px 0px 0px;}
+
+.middle-container {
+    
+    background-color: rgb(247, 220, 224);
+   
+    padding: 55px 0;
+
+
+}
+
+.Greeting {
+        font-size: 22px;
+        padding-left: 25px;
+        padding-right: 25px; 
+        text-align: center;
+        width: 50%;
+        margin: auto;
+
+}
+.Issue_1 {
+     margin:auto auto 100px auto;
+     
+     width: 50%;
+     
+
+}
+.Issue_2 {
+    margin: auto auto 50px auto;
+    width: 50%;
+
+}
+.bottom-container {
+    text-align: center;
+    background-color: #66BFBF;
+    padding: 15px 0;
+    }
+
+
+
+
+.farm_landscape {
+
+    height: 100%;
+    width: 100%
+    
+    
+    
+}
+
+.cloud {
+
+    height: 100px;
+    width: 150px;
+    
+}
+.cloud2 {
+
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    top: 150px;
+    right: 100px;    }
+    
+.cloud3 {
+
+        height: 100px;
+        width: 150px;
+        position: absolute;
+        top: 150px;
+        left: 100px;    }
+    
+
+
+#Grace_sleeping{
+
+    height: 100px;
+    width: 150px;
+    position: absolute;
+    top: 725px;
+    left: 35px;
+    z-index: 1;
+}
+
+#windmill {
+
+    height: 400px;
+    width: 270px;
+    position: absolute;
+    top: 650px;
+    right: 300px;
+    z-index: 1;
+
+
+}
+
+#Happy_Cow {
+    height: 200px;
+    width: 210px;
+    position: absolute;
+    top: 800px;
+    left: 250px;
+    z-index: 1;
+}
+
+
+.Grumpy {
+       display: block;
+       margin-left: auto;
+       margin-right: auto;
+       width: 25%;
+       float: left;
+       padding-right: 30px;
+       
+  
+}
+
+hr {
+    border-top: 5px dotted #547a7a;
+    margin: 55px 550px;
+}
+
+.bunnies {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+    float: right;
+    padding-right: 30px;
+   
+
+
+}
+
+.contact-me {
+        text-align: center;
+        
+}
+
+.btn {
+    background: #11cdd4;
+    background-image: -webkit-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -moz-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -ms-linear-gradient(top, #11cdd4, #11999e);
+    background-image: -o-linear-gradient(top, #11cdd4, #11999e);
+    background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 10px 10px 10px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    background: #30e3cb;
+    background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -ms-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
+    background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+    text-decoration: none;
+  }
+    
+
+.footer-link{
+    color: #127579;
+    margin: 0 50px;
+    text-decoration: none
+    
+    
+ 
+}
+.footer-link:hover{
+    color:#EAF6F6
+
+}
+
+.copyright {
+    color: #EAF6F6;
+    font-size: .75rem;
+    padding: 20px 0px;
+}
