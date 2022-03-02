@@ -75,25 +75,28 @@ h3 {
 
 .cloud {
 
-    height: 100px;
-    width: 150px;
+    height: auto;
+    width: 15%;
+    position: absolute;
+    top: 5%;
+    right: 40%;
     
 }
 .cloud2 {
 
-    height: 100px;
-    width: 150px;
+    height: auto;
+    width: 15%;
     position: absolute;
-    top: 150px;
-    right: 100px;    }
+    top: 15%;
+    right: 10%;    }
     
 .cloud3 {
 
-        height: 100px;
-        width: 150px;
+        height: auto;
+        width: 15%;
         position: absolute;
-        top: 150px;
-        left: 100px;    }
+        top: 15%;
+        left: 10%;    }
     
 
 
