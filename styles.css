@@ -102,12 +102,12 @@ h3 {
 
 #Grace_sleeping{
 
-    height: 100px;
-    width: 150px;
+    height: auto;
+    width: 10%;
     position: absolute;
-    top: 725px;
-    left: 35px;
-    z-index: 1;
+    top: 110%;
+    bottom:15%;
+    left: 25%
 }
 
 #windmill {
