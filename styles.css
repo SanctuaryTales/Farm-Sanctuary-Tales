@@ -11,10 +11,11 @@ h1 {
     font-size: 3.0rem;
     color: #273636;
     font-weight: normal;
-    width: 50%;
+    max-width: 600px;
+    height: auto;
     margin: auto;
     padding: 50px;
-   
+  
 }
 
 h2 {
@@ -24,6 +25,7 @@ h2 {
     font-weight: normal;
     width: 50%;
     margin: auto;
+    padding-bottom: 50px;
 }
 
 h3 {
@@ -61,7 +63,7 @@ h3 {
 
 }
 .Issue_2 {
-    margin: auto auto 50px auto;
+    margin: auto auto 100px auto;
     width: 50%;
 
 }
@@ -71,7 +73,11 @@ h3 {
     padding: 15px 0;
     }
 
-
+  .parent{
+        position: relative;
+        top: 0;
+        left: 0;
+    }
 
 
 .farm_landscape {
@@ -125,23 +131,8 @@ h3 {
     
 }
 
-.parent{
-    position: relative;
-    top: 0;
-    left: 0;
-}
-
-#windmill {
-
-    height: 400px;
-    width: 270px;
-    position: absolute;
-    top: 650px;
-    right: 300px;
-    z-index: 1;
 
 
-}
 
 #Happy_Cow {
     height: auto;
@@ -161,9 +152,7 @@ h3 {
     z-index: 1;
 }
 
-hr {
-    border-top: 5px dotted #547a7a;
-    margin: 55px 550px;}
+
 
 .Grumpy {
        display: block;
@@ -172,17 +161,25 @@ hr {
        width: 35%;
        float: left;
        padding-right: 5%;
-      
+       
+  
+}
 
+
+hr {
+    border-top: 5px dotted #547a7a;
+    margin: 55px 550px;
+    
 }
 
 .bunnies {
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto; 
     width: 35%;
     float: right;
     padding-right: 5%;
+    
    
 
 
@@ -246,5 +243,3 @@ hr {
     }
 
 }
-
-
