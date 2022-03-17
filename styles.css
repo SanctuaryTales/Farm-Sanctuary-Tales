@@ -237,4 +237,9 @@ hr {
     padding: 20px 0px;
 }
 
+@media (max-width: 1028px){
+    .bunnies{
+        min-width: auto;
+    }
 
+}
