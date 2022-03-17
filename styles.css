@@ -161,7 +161,9 @@ h3 {
     z-index: 1;
 }
 
-
+hr {
+    border-top: 5px dotted #547a7a;
+    margin: 55px 550px;}
 
 .Grumpy {
        display: block;
@@ -169,15 +171,9 @@ h3 {
        margin-right: auto;
        width: 35%;
        float: left;
-       padding-right: 30px;
-       
-  
-}
+       padding-right: 5%;
+      
 
-
-hr {
-    border-top: 5px dotted #547a7a;
-    margin: 55px 550px;
 }
 
 .bunnies {
@@ -186,7 +182,7 @@ hr {
     margin-right: auto;
     width: 35%;
     float: right;
-    padding-right: 30px;
+    padding-right: 5%;
    
 
 
@@ -243,3 +239,12 @@ hr {
     font-size: .75rem;
     padding: 20px 0px;
 }
+
+@media (max-width: 1028px){
+    .bunnies{
+        min-width: auto;
+    }
+
+}
+
+
