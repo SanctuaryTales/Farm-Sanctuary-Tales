@@ -237,10 +237,4 @@ hr {
 }
 
 
-/* Media */
-@media (max-width: 1028px) {
-    .bunnies {
-        min-width: auto;
-    }
 
-}
