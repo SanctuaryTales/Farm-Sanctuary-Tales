@@ -1,13 +1,12 @@
-
-   
 body {
     margin: 0;
-    font-family:Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+    font-family: Goudy Old Style, Garamond, Big Caslon, Times New Roman, serif;
+    text-align: center;
 }
 
 h1 {
-   
-    text-align: center;
+
+
     font-size: 3.0rem;
     color: #273636;
     font-weight: normal;
@@ -15,12 +14,12 @@ h1 {
     height: auto;
     margin: auto;
     padding: 50px;
-  
+
 }
 
 h2 {
-    text-align: center;
-    font-size: 2.0rem;
+
+    font-size: 2.5rem;
     color: #273636;
     font-weight: normal;
     width: 50%;
@@ -30,54 +29,39 @@ h2 {
 
 h3 {
     color: #11999E;
+    font-size: 2.15rem;
 }
 
+/* Containers */
 .top-container {
     background-color: #5bd3d3;
-    text-align: center;
-    padding: 100px 0px 0px 0px;}
+
+    padding: 100px 0px 0px 0px;
+}
 
 .middle-container {
-    
+
     background-color: rgb(247, 220, 224);
-   
+
     padding: 55px 0;
 
 
 }
 
-.Greeting {
-        font-size: 22px;
-        padding-left: 25px;
-        padding-right: 25px; 
-        text-align: center;
-        width: 50%;
-        margin: auto;
 
-}
-.Issue_1 {
-     margin:auto auto 100px auto;
-     
-     width: 50%;
-     
-
-}
-.Issue_2 {
-    margin: auto auto 100px auto;
-    width: 50%;
-
-}
 .bottom-container {
-    text-align: center;
+
     background-color: #66BFBF;
     padding: 15px 0;
-    }
+}
 
-  .parent{
-        position: relative;
-        top: 0;
-        left: 0;
-    }
+
+/* Top Images */
+.parent {
+    position: relative;
+    top: 0;
+    left: 0;
+}
 
 
 .farm_landscape {
@@ -88,9 +72,9 @@ h3 {
     position: relative;
     top: 0;
     left: 0;
-    
-    
-    
+
+
+
 }
 
 .cloud {
@@ -100,27 +84,30 @@ h3 {
     position: absolute;
     top: 5%;
     right: 40%;
-    
+
 }
+
 .cloud2 {
 
     height: auto;
     width: 15%;
     position: absolute;
     top: 15%;
-    right: 10%;    }
-    
+    right: 10%;
+}
+
 .cloud3 {
 
-        height: auto;
-        width: 15%;
-        position: absolute;
-        top: 15%;
-        left: 10%;    }
-    
+    height: auto;
+    width: 15%;
+    position: absolute;
+    top: 15%;
+    left: 10%;
+}
 
 
-#Grace_sleeping{
+
+#Grace_sleeping {
 
     height: auto;
     width: 10%;
@@ -128,10 +115,8 @@ h3 {
     position: absolute;
     top: 25%;
     left: 25%;
-    
+
 }
-
-
 
 
 #Happy_Cow {
@@ -143,7 +128,7 @@ h3 {
     z-index: 1;
 }
 
-#rooster{
+#rooster {
     height: auto;
     width: 15%;
     position: absolute;
@@ -154,41 +139,56 @@ h3 {
 
 
 
-.Grumpy {
-       display: block;
-       margin-left: auto;
-       margin-right: auto;
-       width: 35%;
-       float: left;
-       padding-right: 5%;
-       
-  
+/* Comics */
+.Greeting {
+    font-size: 22px;
+    padding-left: 25px;
+    padding-right: 25px;
+
+    width: 50%;
+    margin: auto;
+
 }
 
+.Issue_1 {
+    margin: auto auto 100px auto;
+
+    width: 50%;
+
+
+}
+
+.Summaries {
+    font-size: 1.4rem;
+    text-align: left;
+}
 
 hr {
     border-top: 5px dotted #547a7a;
     margin: 55px 550px;
-    
+}
+
+.Grumpy {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+    float: left;
+    padding-right: 5%;
+
 }
 
 .bunnies {
     display: block;
     margin-left: auto;
-    margin-right: auto; 
+    margin-right: auto;
     width: 35%;
     float: right;
     padding-left: 5%;
-    
-   
-
 
 }
 
-.contact-me {
-        text-align: center;
-        
-}
+/* Buttons */
 
 .btn {
     background: #11cdd4;
@@ -205,9 +205,9 @@ hr {
     font-size: 20px;
     padding: 10px 10px 10px 10px;
     text-decoration: none;
-  }
-  
-  .btn:hover {
+}
+
+.btn:hover {
     background: #30e3cb;
     background-image: -webkit-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: -moz-linear-gradient(top, #30e3cb, #2bc4ad);
@@ -215,20 +215,19 @@ hr {
     background-image: -o-linear-gradient(top, #30e3cb, #2bc4ad);
     background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
     text-decoration: none;
-  }
-    
+}
 
-.footer-link{
+
+/* Footer */
+
+.footer-link {
     color: #127579;
     margin: 0 50px;
     text-decoration: none
-    
-    
- 
 }
-.footer-link:hover{
-    color:#EAF6F6
 
+.footer-link:hover {
+    color: #EAF6F6
 }
 
 .copyright {
@@ -237,3 +236,11 @@ hr {
     padding: 20px 0px;
 }
 
+
+/* Media */
+@media (max-width: 1028px) {
+    .bunnies {
+        min-width: auto;
+    }
+
+}
